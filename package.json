@@ -1,7 +1,10 @@
 {
-  "name": "wbf-next",
+  "name": "next-ts-template",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adhrinae/next-ts-template"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
