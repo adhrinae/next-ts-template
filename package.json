@@ -9,12 +9,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,tsx,tsx} --quiet"
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,tsx,tsx}' --quiet"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "lint"
+      "pre-push": "npm run lint"
     }
   },
   "lint-staged": {
